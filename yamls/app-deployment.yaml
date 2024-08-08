@@ -42,11 +42,11 @@ spec:
                   key: DB_NAME
           resources:
             requests:
-              memory: "50Mi"
-              cpu: "50m"
+              memory: "150Mi"
+              cpu: "150m"
             limits:
-              memory: "50Mi"
-              cpu: "50m"
+              memory: "150Mi"
+              cpu: "150m"
 ---
 apiVersion: v1
 kind: Service
